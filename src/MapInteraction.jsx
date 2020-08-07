@@ -484,6 +484,7 @@ class MapInteractionController extends Component {
   static get propTypes() {
     return {
       children: PropTypes.func,
+      innerRef: PropTypes.func,
       value: PropTypes.shape({
         scale: PropTypes.number.isRequired,
         translation: translationShape.isRequired,
@@ -606,6 +607,7 @@ class MapInteractionController extends Component {
         }}
         value={value}
         {...this.innerProps()}
+        ref={this.props.innerRef}
       >
         {children}
       </MapInteractionControlled>

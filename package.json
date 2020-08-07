@@ -1,6 +1,6 @@
 {
-  "name": "react-map-interaction",
-  "version": "2.0.0",
+  "name": "@teamcodafication/react-map-interaction",
+  "version": "2.0.0-2",
   "description": "'Add map like zooming and dragging to any element'",
   "main": "dist/react-map-interaction.js",
   "scripts": {
@@ -51,7 +51,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/transcriptic/react-map-interaction"
+    "url": "https://github.com/Codafication/react-map-interaction"
   },
   "dependencies": {}
 }
